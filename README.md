@@ -9,23 +9,15 @@ Download all dpi drawables.
 
 Set it as background of view.
 
-<LinearLayout           
-android:layout_width="match_parent"
-android:layout_height="0dp"
-android:layout_weight="10"
-android:orientation="horizontal"
-android:padding="3dp"
-android:background="@drawable/apptheme_textfield_activated_holo_light">
-	<TextView
-		android:id="@+id/emailIdEditText"
-		android:layout_width="match_parent"
-		android:layout_height="50dp"
-		android:layout_marginTop="30dp"
-		android:hint="Email Id"
-		android:inputType="textEmailAddress"
-		android:textColorHint="@android:color/black"
-		android:textSize="20sp"
-		android:textStyle="bold"
-		android:typeface="serif"
-		android:textColor="@android:color/black" />
-</LinearLayout>
+  <EditText
+                            android:id="@+id/emailIdEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/apptheme_textfield_activated_holo_light"
+                            android:inputType="textEmailAddress"
+                            android:textColorHint="@android:color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:textColor="@android:color/black" />
